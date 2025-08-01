@@ -1,33 +1,4 @@
 
-AZ tutorial
-DevSecOps
-Projects
-Pipeline
-3
-One-time Integration with CI/CD Tools
-Integrate scanning effortlessly with your preferred CI/CD tool, including Bitbucket, GitHub, GitLab, CircleCI, or Azure Pipeline. This integration ensures that any updates to your scanning tool preferences are automatically reflected throughout your DevSecOps pipeline setup.
-
-master
-
-Autorun
-Scan Result
-Integrate
-Attentions
-Integrations
-Github
-Gitlab
-Bitbucket
-CircleCI
-Azure Pipeline
-Configuration
-How to Set Up in GitHub Actions
-Step 1: Add Repository Secrets
-Go to your GitHub repository. Click on "Settings" in the top navigation. Navigate to "Secrets" in the left sidebar. Click on "New repository secret." Add a secret named AZ_TOKEN with your ArmourZero API key.
-
-Step 2: Create GitHub Actions Configuration File
-Create a new file in your repository under the path .github/workflows/az-security-scan.yml and paste the provided configuration.
-
-
   # .github/workflows/az-security-scan.yml
 
   name: AZ-Security-Scan
